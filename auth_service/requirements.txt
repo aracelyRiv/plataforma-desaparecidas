@@ -1,0 +1,5 @@
+flask
+flask_sqlalchemy
+flask_cors
+psycopg2-binary          # Driver para PostgreSQL
+python-dotenv            # Para usar .env

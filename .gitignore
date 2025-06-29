@@ -1,0 +1,20 @@
+# Ignorar todos los entornos virtuales
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignorar todos los .env de los microservicios
+**/.env
+
+# Ignorar node_modules (por si vuelves a trabajar con React)
+**/node_modules/
+
+# Ignorar archivos de compilación u otros temporales
+*.log
+*.sqlite3
+*.db
+.DS_Store
+
+# Carpetas de VSCode (si usas)
+.vscode/
